@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DES-CBC加密解密</title>
+  <title>RollingSky Tile Encryptor</title>
   <meta charset="utf-8">
   <style>
     * {
@@ -72,22 +72,22 @@
   </style>
 </head>
 <body>
-  <h1>DES-CBC加密解密</h1>
+  <h1>RollingSky Tile Encrypter</h1>
   <div class="container">
     <div class="column">
-      <label for="input">输入需要加密/解密的文本:</label>
+      <label for="input">Input the Text</label>
       <textarea id="input"></textarea>
-      <button onclick="encrypt()">加密</button>
-      <button onclick="decrypt()">解密</button>
+      <button onclick="encrypt()">Encrypt</button>
+      <button onclick="decrypt()">Decrypt</button>
     </div>
     
     <div class="column">
       <div class="output">
-        <label for="output-text">结果：</label><br>
+        <label for="output-text">Result:</label><br>
         <textarea id="output-text" readonly></textarea>
       </div>
       <button>
-        <a href="#" download="Encrypt_Descrypt.txt" id="downloadLink" class="download-link" style="color: white;">下载结果</a>
+        <a href="#" download="Encrypt_Descrypt.txt" id="downloadLink" class="download-link" style="color: white;">Download</a>
       </button>
     </div>
   </div>
